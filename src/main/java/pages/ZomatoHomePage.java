@@ -3,6 +3,8 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import io.opentelemetry.exporter.logging.SystemOutLogRecordExporter;
+
 public class ZomatoHomePage {
     private WebDriver driver;
     private By signInLink = By.xpath("//a[@data-testid='signin-link']");
