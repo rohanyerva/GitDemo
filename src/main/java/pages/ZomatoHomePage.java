@@ -15,6 +15,7 @@ public class ZomatoHomePage {
 
     public void open() {
         driver.get("https://www.zomato.com/");
+        System.out.println("Zomato HomePage Opened");
     }
 
     public void clickSignIn() {
