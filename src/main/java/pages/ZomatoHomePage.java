@@ -21,5 +21,7 @@ public class ZomatoHomePage {
 
     public void clickSignIn() {
         driver.findElement(signInLink).click();
+        System.out.println("Sign In Clicked");
+
     }
 }
